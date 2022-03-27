@@ -1,0 +1,27 @@
+{
+  "name": "bravedave/mvp",
+  "description": "Minimum Viable Product",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Bray",
+      "email": "david@brayworth.com.au"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "risorsa\\": "src/risorsa/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "src/app/"
+    }
+  },
+  "scripts": {
+    "start": "./run.sh"
+  },
+  "require": {
+    "bravedave/dvc": "dev-master"
+  }
+}
